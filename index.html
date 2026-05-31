@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Services Sri Lanka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; }
+        
+        /* Header and Nav */
+        header { background: linear-gradient(135deg, #2c3e50, #000); padding: 30px; text-align: center; }
+        header h1 { color: #ffffff !important; margin: 0; font-size: 28px; }
+        
+        nav { background: #fff; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.1); overflow-x: auto; white-space: nowrap; }
+        nav a { color: #333; margin: 0 10px; text-decoration: none; font-size: 14px; font-weight: bold; }
+
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        
+        .service-section { background: white; border-radius: 15px; padding: 25px; margin-bottom: 30px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 10px solid #ccc; transition: 0.3s; }
+        
+        /* Service Colors */
+        #police { border-color: #d32f2f; }
+        #ambulance { border-color: #00796b; }
+        #fire { border-color: #f57c00; }
+        #electric { border-color: #388e3c; }
+        #consumer { border-color: #7b1fa2; }
+        #child { border-color: #c2185b; }
+        #transport { border-color: #1976d2; }
+        #health { border-color: #fbc02d; }
+
+        .icon-box { font-size: 40px; margin-bottom: 15px; color: #555; }
+        h1 { margin: 10px 0; color: #222; }
+        p { color: #666; }
+        
+        .call-button { display: inline-block; padding: 12px 35px; color: white; text-decoration: none; font-weight: bold; border-radius: 30px; margin-top: 15px; }
+        .bg-red { background: #d32f2f; }
+        .bg-teal { background: #00796b; }
+        .bg-orange { background: #f57c00; }
+        .bg-green { background: #388e3c; }
+        .bg-purple { background: #7b1fa2; }
+        .bg-pink { background: #c2185b; }
+        .bg-blue { background: #1976d2; }
+        .bg-yellow { background: #fbc02d; color: #333; }
+
+        footer { text-align: center; padding: 30px; color: #777; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><i class="fas fa-headset"></i> Emergency Services Sri Lanka</h1>
+    </header>
+
+    <nav>
+        <a href="#police">POLICE</a>
+        <a href="#ambulance">AMBULANCE</a>
+        <a href="#fire">FIRE</a>
+        <a href="#electric">POWER</a>
+        <a href="#consumer">CONSUMER</a>
+        <a href="#child">PROTECTION</a>
+        <a href="#transport">TRANSPORT</a>
+        <a href="#health">HEALTH</a>
+    </nav>
+
+    <div class="container">
+        
+        <div id="police" class="service-section">
+            <div class="icon-box"><i class="fas fa-shield-halved"></i></div>
+            <h1>POLICE</h1>
+            <p>For immediate police assistance.</p>
+            <a href="tel:119" class="call-button bg-red">CALL 119</a>
+        </div>
+
+        <div id="ambulance" class="service-section">
+            <div class="icon-box"><i class="fas fa-truck-medical"></i></div>
+            <h1>AMBULANCE</h1>
+            <p>For medical emergencies.</p>
+            <a href="tel:110" class="call-button bg-teal">CALL 110</a>
+        </div>
+
+        <div id="fire" class="service-section">
+            <div class="icon-box"><i class="fas fa-fire-extinguisher"></i></div>
+            <h1>FIRE SERVICE</h1>
+            <p>For fire emergencies.</p>
+            <a href="tel:111" class="call-button bg-orange">CALL 111</a>
+        </div>
+
+        <div id="electric" class="service-section">
+            <div class="icon-box"><i class="fas fa-bolt"></i></div>
+            <h1>ELECTRICITY</h1>
+            <p>For power failures.</p>
+            <a href="tel:1987" class="call-button bg-green">CALL 1987</a>
+        </div>
+
+        <div id="consumer" class="service-section">
+            <div class="icon-box"><i class="fas fa-user-shield"></i></div>
+            <h1>CONSUMER AFFAIRS</h1>
+            <p>For complaints regarding services.</p>
+            <a href="tel:1977" class="call-button bg-purple">CALL 1977</a>
+        </div>
+
+        <div id="child" class="service-section">
+            <div class="icon-box"><i class="fas fa-person-breastfeeding"></i></div>
+            <h1>WOMEN & CHILD</h1>
+            <p>For protection and safety.</p>
+            <a href="tel:1938" class="call-button bg-pink">CALL 1938</a>
+        </div>
+
+        <div id="transport" class="service-section">
+            <div class="icon-box"><i class="fas fa-train"></i></div>
+            <h1>TRANSPORT</h1>
+            <p>For transport inquiries.</p>
+            <a href="tel:1971" class="call-button bg-blue">CALL 1971</a>
+        </div>
+
+        <div id="health" class="service-section">
+            <div class="icon-box"><i class="fas fa-pills"></i></div>
+            <h1>PHARMACY/HEALTH</h1>
+            <p>For emergency medical aid.</p>
+            <a href="tel:1912" class="call-button bg-yellow">CALL 1912</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Emergency Services Sri Lanka | Designed by Navodya Ruhunage</p>
+    </footer>
+
+</body>
+</html>
